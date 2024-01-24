@@ -11,9 +11,6 @@ output:
 ---
 
 ```{r}
-data = readRDS("../data/wk2_stocks.rds")
-
-cummulative_sum = sum(data$SPY_returns)
-
-#test
+df = readRDS("data/wk2_stocks.rds")
+str(df)
 ```
